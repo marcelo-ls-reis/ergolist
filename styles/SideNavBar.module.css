@@ -1,0 +1,21 @@
+
+.sidenavbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(64, 50, 185);
+}
+
+.sidenavbar li{
+    color: aquamarine;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.sidenavbar a:hover {
+    color: #999;
+
+}
